@@ -1,0 +1,45 @@
+.month-container{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:1228px) {
+    .month-container{
+        flex-direction: column;
+    }
+}
+.month-body{
+    width: 85%;
+    
+    border: 1px solid #5c5c5c;
+}
+@media screen and (max-width:1228px) {
+    .month-body{
+        
+        width: 100%;
+    }
+}
+
+.month-side{
+    width: 15%;
+    border: 1px solid #5c5c5c;
+}
+@media screen and (max-width:912px) {
+    .month-side{
+        width: 100%;
+    }
+}
+
+.month-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+@media screen and (max-width:912px) {
+    .month-content{
+        flex-direction: column;
+    }
+}
+
+app-table{
+    width: 100%;
+}
