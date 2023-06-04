@@ -13,7 +13,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MonthsComponent } from './components/months/months.component';
 import { ExpenseComponent } from './components/expense/expense.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MonthComponent } from './components/month/month.component';
 import { NumberToMonthPipe } from './Pipes/number-to-month.pipe';
 import { MonthToNumberPipe } from './Pipes/month-to-number.pipe';
 import { TableDataSourceService } from './service/table-data-source.service';
@@ -29,7 +28,6 @@ import { HomeComponent } from './components/home/home.component';
     FooterComponent,
     MonthsComponent,
     ExpenseComponent,
-    MonthComponent,
     NumberToMonthPipe,
     MonthToNumberPipe,
     RegisterComponent,
