@@ -13,12 +13,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MonthsComponent } from './components/months/months.component';
 import { ExpenseComponent } from './components/expense/expense.component';
 import { HttpClientModule } from '@angular/common/http';
-import { NumberToMonthPipe } from './Pipes/number-to-month.pipe';
-import { MonthToNumberPipe } from './Pipes/month-to-number.pipe';
-import { TableDataSourceService } from './service/table-data-source.service';
+// import { NumberToMonthPipe } from '.components/Pipes/number-to-month.pipe';
+// import { MonthToNumberPipe } from './Pipes/month-to-number.pipe';
+// import { TableDataSourceService } from './service/table-data-source.service';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
+import { NumberToMonthPipe } from './components/Pipes/number-to-month.pipe';
+import { MonthToNumberPipe } from './components/Pipes/month-to-number.pipe';
+import { TableDataSourceService } from './components/service/table-data-source.service';
 
 @NgModule({
   declarations: [

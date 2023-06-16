@@ -19,7 +19,7 @@ export class LoginComponent {
     
     const token = localStorage.getItem("jwtToken")
     if (token) {
-      this.route.navigate(['/all-months'])
+      this.route.navigate(['/home'])
     }
   }
 
@@ -33,7 +33,7 @@ export class LoginComponent {
         }
         if (response && response.token) {
           window.alert('User Login Successfully!');
-          this.route.navigate(['/all-months']);
+          this.route.navigate(['/home']);
           localStorage.setItem('jwtToken', response.token);
         } 
       },
